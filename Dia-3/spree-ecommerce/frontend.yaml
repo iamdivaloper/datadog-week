@@ -4,7 +4,7 @@ metadata:
   labels:
     app: ecommerce
     service: frontend
-    tags.datadoghq.com/env: 'prd'
+    tags.datadoghq.com/env: 'intro-rum-lab'
     tags.datadoghq.com/service: 'store-frontend'
     tags.datadoghq.com/version: '1.0'
   name: frontend
@@ -21,7 +21,7 @@ spec:
       labels:
         app: ecommerce
         service: frontend
-        tags.datadoghq.com/env: 'prd'
+        tags.datadoghq.com/env: 'intro-rum-lab'
         tags.datadoghq.com/service: 'store-frontend'
         tags.datadoghq.com/version: '1.0'
       annotations:
@@ -38,9 +38,9 @@ spec:
         - sh
         env:
         - name: DD_CLIENT_TOKEN
-          value: pub6526ae4a084412427f9971364803eb59
+          value: pub8fc69bba610759de04b3faca617279a1
         - name: DD_APPLICATION_ID
-          value: 3c91fe83-bd78-4da5-a286-e16608a2f032
+          value: 744db68d-80a0-42a4-909a-2e4f5557ae0f
         - name: DD_LOGS_INJECTION
           value: "true"
         - name: DD_ENV
