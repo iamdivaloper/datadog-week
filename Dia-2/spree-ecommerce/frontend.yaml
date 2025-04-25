@@ -4,7 +4,7 @@ metadata:
   labels:
     app: ecommerce
     service: frontend
-    tags.datadoghq.com/env: 'prd'
+    tags.datadoghq.com/env: 'intro-rum-lab'
     tags.datadoghq.com/service: 'store-frontend'
     tags.datadoghq.com/version: '1.0'
   name: frontend
@@ -21,7 +21,7 @@ spec:
       labels:
         app: ecommerce
         service: frontend
-        tags.datadoghq.com/env: 'prd'
+        tags.datadoghq.com/env: 'intro-rum-lab'
         tags.datadoghq.com/service: 'store-frontend'
         tags.datadoghq.com/version: '1.0'
       annotations:
